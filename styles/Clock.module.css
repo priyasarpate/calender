@@ -1,0 +1,51 @@
+.box {
+  width: 280px;
+  height: 280px;
+  background: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.17);
+  backdrop-filter: blur(25px);
+  border-bottom: solid 7px #B2A4FF;
+  border-radius: 7px;
+  color: whitesmoke;
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.two {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.month {
+  background: #B2A4FF;
+  padding: 10px 0;
+  font-size: 22px;
+}
+.day,
+.year {
+  font-size: 20px;
+}
+.date {
+  font-size: 100px;
+  margin-top: 100px;
+}
+
+.balls {
+  position: absolute;
+  top: 58%;
+  left: 59%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(330deg, orangered, orange, yellow);
+  border-radius: 50%;
+}
+.balls:nth-child(1) {
+  top: 48%;
+  left: 41%;
+  background: linear-gradient(120deg, #159895, #19376D);
+}
